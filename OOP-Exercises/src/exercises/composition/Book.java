@@ -62,6 +62,7 @@ public class Book {
 		return rt.substring(0, rt.length()-1);
 	}
 	
+	@Override
 	public String toString() {
 		String rt = String.format("Book[name=%s,authors={", this.name);
 		for(int i = 0; i < this.authors.length; ++i) {

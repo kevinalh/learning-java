@@ -29,6 +29,7 @@ public class Author {
 		this.email = email;
 	}
 	
+	@Override
 	public String toString() {
 		return String.format("Author[name=%s,email=%s,gender=%c]", this.name, this.email, this.gender);
 	}

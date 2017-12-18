@@ -14,6 +14,7 @@ public class MyPolynomial {
 		return Integer.MIN_VALUE;
 	}
 	
+	@Override
 	public String toString() {
 		String rt = "";
 		if(coeffs.length == 0) return rt;
@@ -28,7 +29,7 @@ public class MyPolynomial {
 		return rt;
 	}
 	
-	double evaluate(double x) {
+	public double evaluate(double x) {
 		double result = 0;
 		for(int i = 0; i < coeffs.length; ++i) {
 			result += coeffs[i] * Math.pow(x, i);
@@ -36,7 +37,7 @@ public class MyPolynomial {
 		return result;
 	}
 	
-	MyPolynomial add(MyPolynomial right) {
+	public MyPolynomial add(MyPolynomial right) {
 		int newDegree = Math.max(this.getDegree()+1, right.getDegree()+1);
 		double[] newPol = new double[newDegree];
 		for(int i = 0; i < this.coeffs.length; ++i) {

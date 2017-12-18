@@ -1,4 +1,6 @@
-package exercises.classes;
+package exercises.inheritance.tests;
+
+import exercises.inheritance.Rectangle;
 
 public class RectangleTest {
 	public static void main(String[] args) {

@@ -1,4 +1,7 @@
-package exercises.composition;
+package exercises.composition.tests;
+
+import exercises.composition.Author;
+import exercises.composition.Book;
 
 public class BookTest {
 	public static void main(String[] args) {

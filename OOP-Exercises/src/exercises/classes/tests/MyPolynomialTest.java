@@ -1,4 +1,6 @@
-package exercises.classes;
+package exercises.classes.tests;
+
+import exercises.classes.MyPolynomial;
 
 public class MyPolynomialTest {
 	public static void main(String[] args) {

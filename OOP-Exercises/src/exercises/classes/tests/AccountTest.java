@@ -1,4 +1,6 @@
-package exercises.classes;
+package exercises.classes.tests;
+
+import exercises.classes.Account;
 
 class AccountTest {
 	public static void main(String[] args) {
