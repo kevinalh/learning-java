@@ -1,0 +1,4 @@
+time,left_wrist_x,left_wrist_y,left_wrist_z,right_wrist_x,right_wrist_y,right_wrist_z
+0,1,1,1,3,3,0
+1,NaN,2,2,-3,3,10
+2,5,3,11,NaN,3,20
