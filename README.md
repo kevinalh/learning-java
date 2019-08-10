@@ -1,2 +1,2 @@
 # learning-java
-Learning Java using the Head First Java book.
+Repository for tutorials and books code I'm writing while learning Java.

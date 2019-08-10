@@ -2,7 +2,7 @@ public class SimpleDotComGame {
 	public static void main(String[] args) {
 		int numOfGuesses = 0;
 		SimpleDotCom game = new SimpleDotCom();
-		GameHelper helper = new GameHelper();
+		BasicGameHelper helper = new BasicGameHelper();
 		int cell = (int) (Math.random() * 5);
 		int[] locations = {cell, cell+1, cell+2};
 		game.setLocationCells(locations);
