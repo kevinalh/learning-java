@@ -15,6 +15,7 @@ public class PhraseOMatic {
         int twoLength = wordListTwo.length;
         int threeLength = wordListThree.length;
 
+        // The random() function returns a float, so we have to cast the result to an integer.
         int rand1 = (int) (Math.random()*oneLength);
         int rand2 = (int) (Math.random()*twoLength);
         int rand3 = (int) (Math.random()*threeLength);
