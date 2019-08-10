@@ -3,10 +3,10 @@ Code written while working on the Head First Java book. Each folder has a summar
 Not all chapters have a corresponding folder because of various reasons.
 
 ## Table of contents
-1. Basics
-2. Objects
-5. Methods
-6. Library
-7. Inheritance
-10. Numbers
-12. Graphics
+1. [Basics](basics)
+2. [Objects](objects)
+5. [Methods](methods)
+6. [Library](library)
+7. [Inheritance](inheritance)
+10. [Numbers](numbers)
+12. [Graphics](graphics)
