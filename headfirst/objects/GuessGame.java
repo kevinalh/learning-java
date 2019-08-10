@@ -1,3 +1,6 @@
+/**
+ * Contains the Guess game logic.
+ */
 public class GuessGame {
     Player p1;
     Player p2;
